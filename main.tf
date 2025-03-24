@@ -49,7 +49,4 @@ resource "aws_instance" "nginx_server" {
 
 }
 
-# Output Public IP
-output "instance_public_ip" {
-  value = aws_instance.nginx_server.public_ip
-}
+
