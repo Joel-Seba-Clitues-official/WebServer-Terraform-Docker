@@ -65,7 +65,7 @@
 
 ##  Expected Output:
 
- After deployment, visiting http://<EC2-PUBLIC-IP> in a browser will display: "Welcome to Nginx!" (Default Nginx Page).
+ After deployment, visiting http://<EC2-PUBLIC-IP> in a browser will display the default NGINX welcome page with the message: "Hello from My Terraform Nginx Server!".
 
 
 ## Conclusion:
